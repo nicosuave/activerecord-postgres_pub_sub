@@ -1,22 +1,42 @@
 # frozen_string_literal: true
 
+appraise "rails-4.0" do
+  gem "activerecord", "~> 4.0.0"
+  gem "pg", "0.18.4"
+end
+
+appraise "rails-4.1" do
+  gem "activerecord", "~> 4.1.0"
+  gem "pg", "0.18.4"
+end
+
+appraise "rails-4.2" do
+  gem "activerecord", "~> 4.2.0"
+  gem "pg", "0.18.4"
+end
+
+appraise "rails-5.0" do
+  gem "activerecord", "~> 5.0.0"
+  gem "pg", "0.18.4"
+end
+
 appraise "rails-5.1" do
-  gem "activerecord", "5.1.6"
+  gem "activerecord", "~> 5.1.6"
   gem "pg", "0.18.4"
 end
 
 appraise "rails-5.2_pg-1.1" do
-  gem "activerecord", "5.2.1"
+  gem "activerecord", "~> 5.2.1"
   gem "pg", "1.1.4"
 end
 
 appraise "rails-5.2_pg-0.18" do
-  gem "activerecord", "5.2.1"
+  gem "activerecord", "~> 5.2.1"
   gem "pg", "0.18.4"
 end
 
 appraise "rails-5.2_pg-1.2" do
-  gem "activerecord", "5.2.1"
+  gem "activerecord", "~> 5.2.1"
   gem "pg", "1.2.0"
 end
 
